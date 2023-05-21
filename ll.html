@@ -1,0 +1,107 @@
+
+
+    <!DOCTYPE html>
+    <html>
+     <head>
+    <meta charest=" UTF-8">
+    <meta name="dicriptipn" content="about HTML">
+    <link rel="stylesheet" href="nn.css">
+    
+    
+
+</head>
+
+
+
+
+
+
+
+
+
+<body>
+
+<div class="crud">
+<div class="head"> 
+
+    <h2>L_A_S</h2>
+    <p>product mangmaent system</p>
+
+
+</div>
+
+<div class="inputs"> 
+    <input placeholder="title" TYPE="text" id="title">
+    <div class="price">
+
+
+     <input onkeyup=" gettotal()" type="number" id="price" placeholder="price">
+     <input onkeyup=" gettotal()" type="number" id="taxes" placeholder="taxes">
+     <input onkeyup=" gettotal()" type="number" id="ads" placeholder="ads">
+     <input onkeyup=" gettotal()" type="number" id="discount" placeholder="discount">
+     <small id="total">33</small>
+    </div>
+    <input placeholder="count" TYPE="number" id="count">
+    <input placeholder="category" TYPE="text" id="category">
+
+    <button id="submit"> create</button>
+</div>
+<div class="outputs">
+    
+<div id="searchblock">
+
+    <input  onkeyup='searchdata(this.value)'type="text" id="search" placeholder="search">
+<div class="btnsearch">
+    <button onclick="getsearchmood(this.id)" id="btnsearchtitle"> search by title</button>
+    <button onclick="getsearchmood(this.id)" id="btnsearchcategory"> search by category</button>
+
+
+</div>
+ 
+</div>
+
+
+<div ID="deleteall">
+
+
+</div>
+
+<table>
+
+    <tr>
+        <th>id</th>
+        <th>title</th>
+        <th>price</th>
+        <th>taxes</th>
+        <th>ads</th>
+        <th>discount</th>
+        <th>COUNT</th>
+        <th>category</th>
+        <th>update</th>
+        <th>delete</th>
+        
+
+      </tr>
+
+         <tbody id ='tbody'>
+
+
+
+
+         </tbody>
+
+
+</table>
+
+
+
+
+</div>
+
+
+</div>
+
+<script  src=N.js></script>
+</body>
+
+</html>

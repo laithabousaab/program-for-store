@@ -1,0 +1,535 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+
+}
+
+body{
+
+background: linear-gradient(#00020a,#021477);
+height: 100vh;                                  /* هي مساحة بتاخذ للكل */
+font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+
+    text-decoration: none;    /* هي بكون في خط تحت الكليمات  بتشين ل */
+    color: antiquewhite;
+
+}
+
+h2{
+    margin: 20px;
+font-size: small;
+    color: antiquewhite;
+}
+
+.heads{
+ position: fixed;                  /* الها علاقة بالتثبيت */
+ width: 93%;
+ z-index: 100;                     /* هي بتخلي النص فوق الصور */
+display: flex;
+
+align-items: center;
+margin: 40px;
+}
+
+.heads h2{
+
+font-size: 11px;
+text-transform: uppercase;
+
+}
+.heads ul{
+
+display: flex;               /* كل  هي حد بعضن*/
+justify-content: center;
+align-items: center;
+list-style: none;
+
+
+}
+.heads ul li{
+
+margin: 0px;
+
+}
+
+.heads ul li a{
+
+padding: 6px   15px;
+border-radius: 20px;
+
+font-size: 6px;
+
+}
+.heads ul li a:hover , .activ{
+ background: linear-gradient(#252525,#fafafc);
+
+color: #010325;
+font-size: 8PX;
+letter-spacing: 1px;
+}
+.molar{
+
+position: relative;          /* هي مثل الاب */
+height: 100vh;
+width: 100;
+display: flex;              /* هي تثبيتها بنص */
+justify-content: center;               /*  هي للكلمات من شان تجي بنص */
+align-items: center;       /* هي من شان بس تنزل ما تعمل خربكة وتضل نازلة */
+
+
+}
+
+
+.molar::after{
+
+content: "";
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 100px;
+background: linear-gradient(to top, #00020c,transparent);
+}
+
+.molar img{
+
+    position: absolute;                       /* هي مثل الابن*/
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+
+
+}
+.molae #moon2
+{
+
+    transform: scale(0.4);
+}
+
+
+
+
+ #moon2{
+   
+     mix-blend-mode:screen;              /*ي مثل الفوتوشوب ن*/
+     transform: translateY(80px);             /*ي مثل بتحرك القمر على الواي ن*/
+
+}
+#laith{
+
+    font-size: 5px;
+    text-transform: uppercase;
+    transform: translateY(-140px);         /*هي مثل بتحرك الكلمة لفوق  ن*/
+}
+
+
+ p{
+
+color: antiquewhite;
+font-size: 6px;
+padding: 5px;
+}
+.c h2{
+
+    padding: 30px;
+    color: rgb(138, 197, 248);
+}
+
+
+
+    
+
+#moon2
+{
+
+    transform: scale(0.4);
+
+}
+#boat6
+
+{
+   
+    transform: scale(0.4);
+top:100px;
+}
+
+#stars1
+{
+    transform: scale(1.0);
+
+}
+
+
+
+
+.clc
+
+{
+
+    padding: 0;
+    margin: 0;
+    font-family:cursive;
+    text-decoration: none;
+    transform: translateY(-1000px);
+   
+    
+    
+}
+.samer:hover
+{
+
+transform: scale(0.7);
+transition: 1S;
+background: linear-gradient(#19191a ,#046070);
+box-shadow: 0 0 60px rgb(255, 255, 255);
+opacity: 0.95;
+border-radius: 70px;
+
+}
+
+
+
+
+
+
+
+
+.samer{
+   
+    
+    width: 200px;
+    height: 500px;
+    border-radius: 20px;
+    clip-path: circle(140% at left 60%); 
+    justify-content: center; 
+    align-items: center; 
+    transform: scale(0.5);
+    opacity: 0.7;
+   
+}
+
+
+
+  
+
+    
+    
+    
+    
+    .cont{
+    width: 80vh;
+    height: 100vh;
+  
+   
+    
+    }
+    
+    
+    .head{
+    padding: 10px;
+        transform: translateX(60px); 
+     transform: translateY(10px); 
+     justify-content: center;
+      align-items: center;
+     width: 70%;
+    height: 30%;
+    margin-bottom: 40px;
+    
+    }
+    .last {
+        transform: translateY(40px); 
+        transform: translateX(20px);
+       font-size: 7px;
+    }
+    
+    .inter{
+         align-items: center;
+         
+        transform: translateX(60px); 
+        
+    }
+    .inter2{
+        transform: translateY(20px); 
+    
+    }
+    input{
+    font-family: sans-serif;
+    border-radius: 5px;
+    width: 200PX;
+    height: 20PX;
+    color: linear-gradient(#494a4b ,#00031d);
+    margin: 7px;
+    
+    }
+    button {
+    margin: 10px;
+        color: rgb(240, 232, 232);
+        background: linear-gradient(#092652 ,#7d7d80);
+      width: 80px;
+      height: 23px;
+      border-radius: 10px;
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(235, 233, 233, 0.205);
+      transition: 0.9s;
+    }
+    button:hover{
+        background: linear-gradient(#00060e ,#2323d6);
+        letter-spacing: 3px;
+         
+        transform: scale(1.1);
+    
+    }
+    .about{
+    color: rgb(135, 135, 136);
+        transform: translateY(190px); 
+      
+    }
+   
+    
+    .head .p2{
+        transform: translateX(130px); 
+    
+    }
+    .head h2{
+    margin-bottom: 20px;
+        transform: translateX(60px); 
+        text-transform: uppercase;
+        box-shadow: 0 0 10px rgba(250, 249, 249, 0.39);
+    
+    }
+    
+    .img1{
+       
+        transform: translateX(190px); 
+        width: 400PX;
+       height: 100PX;
+    }
+    
+    
+    #submit1 {
+    
+    width: 180px;
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      .loader4{
+        display: block;
+        position: relative;
+        height: 10px;
+        width: 25%;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+      .loader4:after{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 0;
+        background: linear-gradient(#00050a ,#9c0202);
+        animation: 6s prog ease-in infinite;
+      }
+      
+      @keyframes prog {
+        to  {   width: 100%;}
+      }
+      
+    
+    
+    
+    
+      
+    .loader4{
+       
+       
+    
+       box-shadow: 0 0 5px rgba(250, 2, 2, 0.753);
+    
+    }
+    .logo{
+        color:#e3e5e7;
+        display: flex;
+        
+        transform: translateY(150px);
+        font-size: smaller;
+    }
+    .logo1{
+        
+        margin-left: 40px;
+    }
+    
+    .logo3 i{
+        margin: 10px;
+        
+    }
+    
+    
+    .logo2{
+        
+        margin-left: 40px;
+    }
+    
+    .logo3 i{
+        transform: scale(1.8);
+        margin-left: 40px;
+    }
+    .logo1 i{
+        margin: 10px;
+       
+        transform: scale(1.8);
+    }
+    
+    .logo2 i{
+        transform: scale(1.8);
+        margin: 10px;
+    }
+    
+    .aa{
+        transform: translateX(370px);
+    }
+    
+    
+    .a{
+        
+        transform: translateY(-270px);
+    
+    }
+    .a i{
+        
+        transform: scale(7.1);
+        color: #d6d3d3 ;
+       
+    }
+    .fa-sharp{
+        background-color: #2a2a2b;
+        border-radius: 50px;
+        box-shadow: 0 0 10px rgba(252, 53, 3, 0.856);
+    }
+    .aaa {
+    
+        transform: translateX(-66px);
+    }
+    
+    
+    
+    .aa .loader4{
+        transform: translateY(-240px);
+        margin: 10px;
+    }
+    .aaa .c{
+        transform: translateY(-200px);
+    font-size: 7px;
+    color: #fcfcff;
+    box-shadow: 0 0 5px rgba(252, 53, 3, 0.856);
+    width: 180px;
+    }
+    
+    
+    
+    
+    .loader3{
+        display: block;
+        position: relative;
+        height: 8px;
+        width: 17%;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+      .loader3:after{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 0;
+        background: linear-gradient(#00050a ,#01690a);
+        animation: 3s prog ease-in infinite;
+      }
+      
+      @keyframes prog {
+        to  {   width: 100%;}
+      }
+      
+    
+    
+    
+    
+      
+    .loader3{
+       
+       
+    
+       box-shadow: 0 0 5px rgba(35, 109, 1, 0.753);
+    
+    }
+    
+    .cc {
+        position: relative;
+        transform: translateY(-235px);
+    }
+    
+    .cc .loader3{
+        
+        transform: translateX(62px);
+    }
+    
+    
+    .b{
+       
+        color: #07b624;
+        position: absolute;
+        
+       
+        
+    }
+    
+    
+    
+    .b i {
+    
+        transform: translateX(40px);
+        box-shadow: 0 0 10px rgba(148, 236, 97, 0.979);
+    }
+    .bb .b{
+       
+        transform: translateY(-86px);
+    }
+    
+    .page2{
+    
+    color: #f0f0f3;
+    
+    }
+    #email{
+    
+        box-shadow: 0 0 5px rgba(235, 236, 236, 0.781);
+        background: linear-gradient(#fcfdfd ,#9b86f7);
+    }
+    #email1{
+    
+        box-shadow: 0 0 5px rgba(235, 236, 236, 0.781);
+        background: linear-gradient(#fcfdfd ,#9b86f7);
+    }
+    #password{
+        box-shadow: 0 0 5px rgba(235, 236, 236, 0.781);
+        background: linear-gradient(#fcfdfd ,#9b86f7);
+    }
+    #password1{
+        box-shadow: 0 0 5px rgba(235, 236, 236, 0.781);
+        background: linear-gradient(#fcfdfd ,#9b86f7);
+    }
